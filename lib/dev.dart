@@ -28,6 +28,10 @@ class _DevState extends State<Dev> {
         'iconURL': 'assets/linkedin.png'
       },
       {
+        'URL': 'https://studentambassadors.microsoft.com/en-US/profile/48319',
+        'iconURL': 'assets/MLSA.png'
+      },
+      {
         'URL': 'https://stackoverflow.com/users/11545939/himanshu-sharma',
         'iconURL': 'assets/stack-overflow.png'
       },
@@ -85,12 +89,14 @@ class _DevState extends State<Dev> {
                     child: Row(
                       children: social.map((e) => 
                         Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 100),
+                          padding: const EdgeInsets.symmetric(horizontal: 16),
                           child: MouseRegion(
                             cursor: SystemMouseCursors.click,
                             child: GestureDetector(
                               onTap: ()=> launchURL(e['URL']),
-                              child: Image.asset(e['iconURL']),
+                              child: Image.asset(e['iconURL'],
+                                height: height*0.06,
+                              ),
                             ),
                           ),
                         )
