@@ -65,6 +65,7 @@ jobs:
         git push origin gh-pages -f
 
 ```
+### Resources
 
 A few resources to get you started with Flutter project:
 
