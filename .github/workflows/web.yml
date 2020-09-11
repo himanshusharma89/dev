@@ -31,7 +31,7 @@ jobs:
         name: web-build 
     - name: Display structure of downloaded files
       run: ls -R
-      working-directory: ./web-build
+      working-directory: ./web
     - name: Deploy to GH Pages
       run: |
         cd build/web
