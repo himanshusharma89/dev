@@ -65,6 +65,9 @@ jobs:
         git push origin gh-pages -f
 
 ```
+
+##### Made with <span style="color: #e25555;">&#9829;</span> by <a href="https://www.linkedin.com/in/himanshusharma89/">Himanshu Sharma</a>
+
 ### Resources
 
 A few resources to get you started with Flutter project:
