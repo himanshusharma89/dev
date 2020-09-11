@@ -2,7 +2,7 @@
 
 A new Flutter project for the **GitHub Actions x DEV Hackathon!**.
 
-This GitHub Action "Flutter Web CI" is designed to automate the developers work to: 
+This GitHub Action "**Flutter Web CI**" is designed to automate the developers work to: 
 * Configure the flutter tool for web support
 * Build an app with web support
 * Archive the build and upload the Artifact
