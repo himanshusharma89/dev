@@ -66,11 +66,23 @@ jobs:
 
 ```
 
-##### Made with <span style="color: #e25555;">&#9829;</span> by <a href="https://www.linkedin.com/in/himanshusharma89/">Himanshu Sharma</a>
+### Additional Resources / Info
 
-### Resources
+This GitHub Action uses the following open-source GitHub Actions:
+
+[subosito/flutter-action](https://github.com/subosito/flutter-action)
+
+[actions/upload-artifact](https://github.com/actions/upload-artifact)
+
+[actions/download-artifact](https://github.com/actions/download-artifact)
+
+[Flutter Web — Github Actions-Github Pages](https://medium.com/flutter-community/flutter-web-github-actions-github-pages-dec8f308542a)
+
 
 A few resources to get you started with Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+
+##### Made with <span style="color: #e25555;">&#9829;</span> by <a href="https://www.linkedin.com/in/himanshusharma89/">Himanshu Sharma</a>
